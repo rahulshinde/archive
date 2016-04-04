@@ -103,9 +103,7 @@ input[type=text] {
 	border-bottom: 1px solid red;
 }
 
-h1,
-#archive:link,
-#archive:visited {
+h1 {
 	font-family: 'Rubik', serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -137,9 +135,10 @@ a#heading,
 #output h1 {
 	font-family: 'Halant', serif;
 	color: black;
-	font-size: 16px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
+	text-decoration: none;
 
 
 }
@@ -154,15 +153,18 @@ a#heading,
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	font-style: italic;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 16px;
+	color: red;
 }
 
 .project-name a:link,
 .project-name a:visited {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	font-size: 13px;
+	font-size: 16px;
+	color: red;
+	text-decoration: none;
 }
 
 /* 	======================
