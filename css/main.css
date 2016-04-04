@@ -110,6 +110,7 @@ a#heading,
 	color: black;
 	font-size: 16px;
 	font-style: normal;
+	font-weight: 400;
 
 
 }
@@ -131,8 +132,8 @@ a#heading,
 .project-name a:link,
 .project-name a:visited {
 	font-family: 'Rubik', sans-serif;
-	font-weight: 300;
-	font-size: 14px;
+	font-weight: 500;
+	font-size: 13px;
 }
 
 /* =================
