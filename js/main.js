@@ -6,12 +6,18 @@ function getImages() {
 
     if (text == '') {
         $('#output img').remove();
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
-        $("#output").append("<img src='http://www.placecage.com/150/100'>");
+        $("#output").append("<img src='img/1.jpg'>");
+        $("#output").append("<img src='img/2.png'>");
+        $("#output").append("<img src='img/3.jpg'>");
+        $("#output").append("<img src='img/4.png'>");
+        $("#output").append("<img src='img/5.jpg'>");
+        $("#output").append("<img src='img/6.png'>");
+        $("#output").append("<img src='img/7.jpg'>");
+        $("#output").append("<img src='img/8.png'>");
+        $("#output").append("<img src='img/9.jpg'>");
+        $("#output").append("<img src='img/10.png'>");
+        $("#output").append("<img src='img/11.jpg'>");
+        $("#output").append("<img src='img/12.png'>");
         return;
     }
 
