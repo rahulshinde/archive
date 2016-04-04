@@ -4,9 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>2015-2016</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Rubik:500,300,300italic' rel='stylesheet' type='text/css'>
+    <title>Angular Sort and Filter</title>
 
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/sandstone/bootstrap.min.css"> -->
@@ -39,18 +37,18 @@
       <thead>
         <tr>
           <td class="project-name">
-            <a class="heading" href="#" ng-click="sortType = 'name' ; sortReverse = !sortReverse">
-              TITLE 
+            <a id ="heading" href="#" ng-click="sortType = 'name' ; sortReverse = !sortReverse">
+              Title 
               <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
               <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
             </a>
           </td>
-          <td class="heading" class="description">
-              DESCRIPTION
+          <td id ="heading" class="description">
+              Description
           </td>
           <td class="tags">
-            <a class="heading" href="#" ng-click="sortType = 'tags' ; sortReverse = !sortReverse">
-              TAGS
+            <a id ="heading" href="#" ng-click="sortType = 'tags' ; sortReverse = !sortReverse">
+              Tags
               <span ng-show="sortType == 'tags' && !sortReverse" class="fa fa-caret-down"></span>
               <span ng-show="sortType == 'tags' && sortReverse" class="fa fa-caret-up"></span>
             </a>
@@ -69,20 +67,13 @@
     </table>
     
     <div id="output">
-      <h1>RELATED IMAGES</h1>
-      <img src='img/1.jpg'>
-      <img src='img/2.png'>
-      <img src='img/3.jpg'>
-      <img src='img/4.png'>
-      <img src='img/5.jpg'>
-      <img src='img/6.png'>
-      <img src='img/7.jpg'>
-      <img src='img/8.png'>
-      <img src='img/9.jpg'>
-      <img src='img/10.png'>
-      <img src='img/11.jpg'>
-      <img src='img/12.png'>
-      <img src='" + data.images[i
+      <h1>Related images</h1>
+      <img src='http://www.placecage.com/150/100'>
+      <img src='http://www.placecage.com/150/100'>
+      <img src='http://www.placecage.com/150/100'>
+      <img src='http://www.placecage.com/150/100'>
+      <img src='http://www.placecage.com/150/100'>
+      <img src='http://www.placecage.com/150/100'>
     </div>
   </div>
 </body>

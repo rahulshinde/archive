@@ -103,12 +103,36 @@ input[type=text] {
 	border-bottom: 1px solid red;
 }
 
-a.heading,
-.heading,
+a#heading,
+#heading,
 #output h1 {
 	font-family: 'Halant', serif;
+	color: black;
+	font-size: 16px;
+	font-style: normal;
 
 
+}
+
+.description {
+	font-family: 'Halant', serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.tags {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.project-name a:link,
+.project-name a:visited {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 }
 
 /* =================
