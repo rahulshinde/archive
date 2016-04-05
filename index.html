@@ -85,7 +85,7 @@
       
       <tbody>
         <tr ng-repeat="roll in sushi | orderBy:sortType:sortReverse | filter:searchName">
-          <td class="project-name"><a ng-href="{{roll.url}}">{{ roll.name }}</a></td>
+          <td class="project-name"><a target="_blank" ng-href="{{roll.url}}">{{ roll.name }}</a></td>
           <td class="description">{{ roll.description }}</td>
           <td class="tags">{{ roll.tags }}</td>
         </tr>

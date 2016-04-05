@@ -8,14 +8,24 @@ angular.module('sortApp', [])
   
   var searchTerm = $scope.searchName;
 
-  // create the list of sushi rolls 
+  
   $scope.sushi = [
-    { url: 'http://rahulshinde.github.io/prototype-3/', name: 'Exercise 1', description: 'An Exercise in contained three dimensional symbolic systems. Viewer is placed external to the virtual environment. Scale between objects is fixed but can fluctuate in relation to the user.', tags: 'Three.js, 3D, web-experiments' },
-    { url: '2.html', name: 'Exercise 2', description: 'The color red is very enjoyable.', tags: 'color' },
-    { url: '3.html', name: 'Exercise 3', description: 'The color green is nice but I wish it was a bit brighter.', tags: 'color' },
-    { url: 'http://rahulshinde.github.io/prototype-3/', name: 'Exercise 4', description: 'An Exercise in contained three dimensional symbolic systems. Viewer is placed external to the virtual environment. Scale between objects is fixed but can fluctuate in relation to the user.', tags: 'Three.js, 3D, web-experiments' },
-    { url: 'http://rahulshinde.github.io/prototype-3/', name: 'Exercise 5', description: 'An Exercise in contained three dimensional symbolic systems. Viewer is placed external to the virtual environment. Scale between objects is fixed but can fluctuate in relation to the user.', tags: 'Three.js, 3D, web-experiments' },
-    { url: '3.html', name: 'Exercise 6', description: 'The color green is nice but I wish it was a bit brighter.', tags: 'color' },
+    // MISC
+    { url: 'http://rahulshinde.github.io/drawing-tools/line.html', name: 'Drawing Tool 1', description: 'Simple drawing tool built in Three.js using mouse position to determine coordinates of the rendered object (line).', tags: 'Three.js, 3D, web experiments, drawing tool, 2016' },
+    { url: 'http://rahulshinde.github.io/drawing-tools/line2.html', name: 'Drawing Tool 2', description: 'An alternate iteration of Drawing Tool 1', tags: 'Three.js, 3D, web experiments, drawing tool, 2016' },
+    { url: 'http://rahulshinde.github.io/eutropia-book/', name: 'Eutropia Binder', description: 'Quick render / texture test for an incomplete exercise in alternative digital documentation.', tags: 'Three.js, 3D, web experiments, 2015' },
+    { url: 'http://rahulshinde.github.io/learning-three.js/', name: 'Learning Three.js', description: 'Digital document consisting of a series of experiments I completed in the summer of 2015 while trying to learn Three.js.', tags: 'Three.js, 3D, web experiments, 2015' },
+
+    // OR / MAYBE
+    { url: 'http://or-maybe.info/', name: 'OR / MAYBE', description: 'Current website for Expressions of Doubt, a studio I started at the beginning of 2016 to serve as a nomadic design studio, collaborative research space, archive and publishing platform.', tags: 'archive, studio, OR / MABE, collaboration, 2016' },
+    { url: 'http://rahulshinde.github.io/dictionary/line.html', name: 'Temporary Developments', description: 'Initial set of instructions corresponding to the creation of Expressions of Doubt. (Formerly known as Temporary Developments)', tags: 'rule-set, studio, OR / MABE, collaboration, 2016' },
+
+    // P R O T O T Y P E 3
+    { url: 'http://rahulshinde.github.io/prototype-3/', name: 'Prototype 3', description: 'Two experiments conducted in response to the necessity of developing a formal language specific to web space (incomplete).', tags: 'Three.js, 3D, web experiments, 2015' },
+
+    //O-WIP
+    { url: 'http://rahulshinde.github.io/prototype-3/', name: 'Surface No. 2', description: 'Piece completed for Overview of a Work in Progress Part 1 (Works best on iPhone). Click and drag to move around panorama.', tags: 'web gl, 3D, web experiments, o-wip, 2015' },
+
   ];
 
   //add images using api
